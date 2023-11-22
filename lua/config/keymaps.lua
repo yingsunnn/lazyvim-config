@@ -2,7 +2,7 @@
 -- Default keymaps that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/keymaps.lua
 -- Add any additional keymaps here
 
-vim.keymap.set("n", "<leader>ws", "<cmd>w<cr>", { noremap = true, desc = "Save" })
+-- vim.keymap.set("n", "<leader>ws", "<cmd>w<cr>", { noremap = true, desc = "Save" })
 
 -- Resize window
 vim.keymap.set("n", "<C-S-Up>", "<cmd>resize +2<cr>", { desc = "Increase window height" })
