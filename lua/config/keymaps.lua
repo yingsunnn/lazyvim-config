@@ -3,7 +3,6 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>ws", "<cmd>w<cr>", { noremap = true, desc = "Save" })
---vim.keymap.set("n", "C-S-Right", "<cmd>vertical resize +2<cr>", { desc = "Vertical Resize +2" })
 
 -- Resize window
 vim.keymap.set("n", "<C-S-Up>", "<cmd>resize +2<cr>", { desc = "Increase window height" })
